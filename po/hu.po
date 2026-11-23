@@ -1,0 +1,1 @@
+../translationproject/PO-files/hu/findutils-4.5.15.hu.po

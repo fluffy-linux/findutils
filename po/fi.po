@@ -1,0 +1,1 @@
+../translationproject/PO-files/fi/findutils-4.5.15.fi.po

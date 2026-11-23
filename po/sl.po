@@ -1,0 +1,1 @@
+../translationproject/PO-files/sl/findutils-4.5.15.sl.po
