@@ -21,7 +21,7 @@ print_ver_ xargs
 
 # Prepare a command with a whitespace in its file name.
 printf "%s\n" \
-  '#!/bin/sh' \
+  '#!/sw/bash/bin/bash' \
   'echo "$@"' \
   > 'my command' \
   && chmod +x 'my command' \

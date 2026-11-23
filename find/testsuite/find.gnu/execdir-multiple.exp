@@ -17,7 +17,7 @@
 # $body is the body of a shell script we use for testing.
 # It prints a series of lines of the form described above.
 # One line is printed for each command-line argument.
-set body {#! /bin/sh
+set body {#!/sw/bash/bin/bash
 set -e
 here=`pwd`
 d=`basename $here`

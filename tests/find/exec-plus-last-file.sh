@@ -35,7 +35,7 @@ CMD='tstcmd'
 
 # Create the CMD script and check that it works.
 mkdir 'bin' \
-  && printf '%s\n' '#!/bin/sh' 'printf "%s\n" "$@"' > "bin/$CMD" \
+  && printf '%s\n' '#!/sw/bash/bin/bash' 'printf "%s\n" "$@"' > "bin/$CMD" \
   && chmod +x "bin/$CMD" \
   && PATH="$PWD/bin:$PATH" \
   && [ "$( find bin -maxdepth 0 -exec "$CMD" '{}' + )" = 'bin' ] \

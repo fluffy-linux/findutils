@@ -15,7 +15,7 @@ while {[gets $f filename] >= 0} {
 close $f
 
 set script [open tmp/list.sh "w"]
-puts $script {#! /bin/sh
+puts $script {#!/sw/bash/bin/bash
 for f; do echo "$f"; done
 }
 close $script
