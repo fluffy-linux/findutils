@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/sw/bash/bin/bash
 # updatedb -- build a locate pathname database
 # Copyright (C) 1994-2026 Free Software Foundation, Inc.
 #
@@ -148,7 +148,7 @@ select_shell() {
 : ${FINDOPTIONS=}
 
 # What shell should we use?  We should use a POSIX-ish sh.
-: ${SHELL="/bin/sh"}
+: ${SHELL="/sw/bash/bin/bash"}
 
 # Non-network directories to put in the database.
 : ${SEARCHPATHS="/"}
