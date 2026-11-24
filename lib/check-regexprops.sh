@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/sw/bash/bin/bash
 # Generate regexprops.texi and compare it against the checked-in version.
 #
 # Copyright (C) 2009-2026 Free Software Foundation, Inc.
